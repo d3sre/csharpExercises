@@ -4,10 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace L02U2
 {
     public static class Program
     {
+        /// <summary>
+        /// Entry of app
+        /// Inspiration from https://msdn.microsoft.com/en-us/library/79b3xss3.aspx
+        /// </summary>
+        /// <param name="args">No Input taken from beginning</param>
         static void Main(string[] args)
         {
             Console.WriteLine("Please select your convertion");
