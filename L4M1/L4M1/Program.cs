@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 
 namespace L4M1
 {
-    class Program : IZhawCal
+    public class Program : IZhawCal
     {
         
         static void Main(string[] args)
         {
+            
         }
+
 
         public double Add(string e1, string e2)
         {    
@@ -71,14 +73,15 @@ namespace L4M1
             
         }
 
-        protected void TestString(string number0, out double number1)
+        protected double TestString(string number0)
         {
-
+            double number1;
             //return Convert.ToDouble(number);
             if (!double.TryParse(number0, out number1))
             {
                 throw new OwnException("The following parameter couldn't be parsed: " + number0);
             }
+            return number1;
         }
     }
 }

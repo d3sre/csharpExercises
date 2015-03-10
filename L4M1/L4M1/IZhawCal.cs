@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace L4M1
 {
-    interface IZhawCal
+    public interface IZhawCal
     {
         double Add(string e1, string e2);
         double Sub(string e1, string e2);
