@@ -1,0 +1,28 @@
+﻿<!--<Window x:Class="L9HA1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="450"
+        Loaded="WindowLoaded">
+    <Grid>
+        <DataGrid Name="DataGrid1" />
+    </Grid>
+</Window> -->
+
+<Window x:Class="L9HA1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525"
+        Loaded="WindowLoaded">
+    <Grid>
+        <TextBox Name="FirstNameBox" HorizontalAlignment="Left" Height="23" Margin="141,36,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="LastNameBox" HorizontalAlignment="Left" Height="23" Margin="141,81,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Firstname:" HorizontalAlignment="Left" Margin="59,34,0,0" VerticalAlignment="Top"/>
+        <Label Content="Lastname:" HorizontalAlignment="Left" Margin="59,78,0,0" VerticalAlignment="Top"/>
+        <Label Content="Search by:" HorizontalAlignment="Left" Margin="59,3,0,0" VerticalAlignment="Top"/>
+        <Button Content="Search" HorizontalAlignment="Left" Click="Button_Search" Margin="346,81,0,0" VerticalAlignment="Top" Width="75"/>
+        <DataGrid Name="DataGrid1" RowEditEnding="DataGrid1_RowEditEnding" Margin="0,155,0,0" VerticalAlignment="Top" Height="165"/>
+
+    </Grid>
+</Window>
+ 
+    

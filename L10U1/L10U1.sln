@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFServiceLibrary", "L10U1\WCFServiceLibrary.csproj", "{1ACEA0AF-4F90-4BBA-AFD9-9DEDB3B0D128}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientApplikation", "ClientApplikation\ClientApplikation.csproj", "{BC865375-3525-42E0-B6BD-AA341E3866AB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1ACEA0AF-4F90-4BBA-AFD9-9DEDB3B0D128} = {1ACEA0AF-4F90-4BBA-AFD9-9DEDB3B0D128}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleCalcClient", "ConsoleCalcClient\ConsoleCalcClient.csproj", "{763DF1E3-5C6A-406C-A5FA-8A0B520F849B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1ACEA0AF-4F90-4BBA-AFD9-9DEDB3B0D128} = {1ACEA0AF-4F90-4BBA-AFD9-9DEDB3B0D128}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1ACEA0AF-4F90-4BBA-AFD9-9DEDB3B0D128}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ACEA0AF-4F90-4BBA-AFD9-9DEDB3B0D128}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ACEA0AF-4F90-4BBA-AFD9-9DEDB3B0D128}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ACEA0AF-4F90-4BBA-AFD9-9DEDB3B0D128}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC865375-3525-42E0-B6BD-AA341E3866AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC865375-3525-42E0-B6BD-AA341E3866AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC865375-3525-42E0-B6BD-AA341E3866AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC865375-3525-42E0-B6BD-AA341E3866AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{763DF1E3-5C6A-406C-A5FA-8A0B520F849B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{763DF1E3-5C6A-406C-A5FA-8A0B520F849B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{763DF1E3-5C6A-406C-A5FA-8A0B520F849B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{763DF1E3-5C6A-406C-A5FA-8A0B520F849B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

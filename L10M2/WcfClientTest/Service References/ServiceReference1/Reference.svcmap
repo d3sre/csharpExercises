@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="1461ee7e-804d-455b-9cc0-7f60c9758e13" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/L10M2/Service1/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="6db503fe-f1e0-4c47-a92b-7c42ce1c156d" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/L10M2/Service1/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="6f684c61-7da8-4ae7-90a1-aeb45c72d223" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/L10M2/Service1/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="70514363-b9a9-4822-b024-008c47f2fcc8" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/L10M2/Service1/mex" />
+    <MetadataFile FileName="L10M2.xsd" MetadataType="Schema" ID="3b2121b0-833e-4999-a66d-8e2cd45bb271" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/L10M2/Service1/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
